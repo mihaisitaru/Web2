@@ -62,7 +62,7 @@ body {
 }
 
 .btn-lg:hover {
-    background-color: yellow;
+    background-color: white;
     color: black;
     font-size: 200%;
 }
