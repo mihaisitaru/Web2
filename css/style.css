@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta+Malar');
+
+body {
+    padding-top: 3.5rem; /* Move down content because we have a fixed navbar that is 3.5rem tall */
+    font-family: 'Mukta Malar', Arial, sans-serif;
+}
+
+.btn-lg {
+    font-size: 36px;
+}
+
+.jumbotron {
+    color: #fff;
+    background: #fff url('../images/background.jpg') fixed center;
+    font-weight: 100;
+    padding: 19em 2em;
+}
+
+@media (max-width: 1199px) {
+    .jumbotron h1 {
+        font-size: 56px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .jumbotron h1 {
+        font-size: 44px;
+        margin-bottom: 30px;
+    }
+
+    .jumbotron p {
+        padding: 0 10px;
+    }
+
+    h2 {
+        padding-top: 20px 0;
+    }
+
+    .btn-lg {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 767px) {
+    .jumbotron h1 {
+        font-size: 44px;
+        margin-bottom: 30px;
+    }
+
+    .jumbotron p {
+        padding: 0 10px;
+    }
+
+    h2 {
+        padding-top: 20px 0;
+    }
+
+    .btn-lg {
+        font-size: 18px;
+    }
+}
+
+.btn-lg:hover {
+    background-color: yellow;
+    color: black;
+    font-size: 200%;
+}
